@@ -34,7 +34,26 @@
 				<string>com.googleusercontent.apps.255395953677-jr1eab79sb0cnqpcg7socctgncqr8sul</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>eternus.First.MyDevApp</string>
+			</array>
+		</dict>
 	</array>
+	<key>FacebookAppID</key>
+	<string>151086282200774</string>
+	<key>Facebook Disaplay Name</key>
+	<string>My Dev App</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>

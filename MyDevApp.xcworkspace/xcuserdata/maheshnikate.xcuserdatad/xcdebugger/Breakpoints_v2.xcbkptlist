@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Simplicity/Simplicity/LoginProviders/Google.swift"
+            timestampString = "535006785.635523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "exchangeCodeForAccessToken(_:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simplicity.Google.((exchangeCodeForAccessToken in _BFE8F700F3B625BCD38768B437F17A36) (Swift.String, callback : (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Simplicity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshnikate/Documents/GitHub/MyDevApp/Pods/Simplicity/Simplicity/LoginProviders/Google.swift"
+                  timestampString = "535032977.332514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simplicity.Google.((exchangeCodeForAccessToken in _BFE8F700F3B625BCD38768B437F17A36) (Swift.String, callback : (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Simplicity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maheshnikate/Documents/GitHub/MyDevApp/Pods/Simplicity/Simplicity/LoginProviders/Google.swift"
+                  timestampString = "535032977.334196"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Simplicity/Simplicity/LoginProviders/Google.swift"
+            timestampString = "535007221.203427"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Simplicity/Simplicity/LoginProviders/Google.swift"
+            timestampString = "535007250.2754"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "exchangeCodeForAccessToken(_:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyDevApp/AppDelegate.swift"
+            timestampString = "535032968.795575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "application(_:open:sourceApplication:annotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyDevApp/AppDelegate.swift"
+            timestampString = "535032971.67541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "application(application:openURL:sourceApplication:annotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -19,6 +19,7 @@
 		7AB40ACF1FE275A200ED6F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB40ACD1FE275A200ED6F45 /* LaunchScreen.storyboard */; };
 		7AB40ADA1FE275A300ED6F45 /* MyDevAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB40AD91FE275A300ED6F45 /* MyDevAppTests.swift */; };
 		7AB40AE51FE275A300ED6F45 /* MyDevAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB40AE41FE275A300ED6F45 /* MyDevAppUITests.swift */; };
+		7ABE1C041FE3950200650127 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE1C031FE3950200650127 /* GoogleService-Info.plist */; };
 		93610D57E7B325CA1409C5C8 /* Pods_MyDevAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B816B0C20AEA23C1A53F1 /* Pods_MyDevAppUITests.framework */; };
 		E307C0B0A4179853373EFC84 /* Pods_MyDevAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B19ACD5437E6646A544340 /* Pods_MyDevAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		6E8B816B0C20AEA23C1A53F1 /* Pods_MyDevAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDevAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2EE3F61FE280F2005C3E5D /* Simplicity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Simplicity.framework; path = "../../../Library/Developer/Xcode/DerivedData/MyDevApp-ceatqtpozifszsexkwrxrrdxqmhu/Build/Products/Debug-iphoneos/Simplicity/Simplicity.framework"; sourceTree = "<group>"; };
 		7A2EE3FA1FE28C45005C3E5D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A915BCE1FE3E4B20043EEE7 /* MyDevApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyDevApp.entitlements; sourceTree = "<group>"; };
 		7AB40ABC1FE275A100ED6F45 /* MyDevApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDevApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB40ABF1FE275A100ED6F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AB40AC21FE275A200ED6F45 /* MyDevApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDevApp.xcdatamodel; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		7AB40AE01FE275A300ED6F45 /* MyDevAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDevAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB40AE41FE275A300ED6F45 /* MyDevAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDevAppUITests.swift; sourceTree = "<group>"; };
 		7AB40AE61FE275A300ED6F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABE1C031FE3950200650127 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6B19ACD5437E6646A544340 /* Pods_MyDevAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDevAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB68EFFCA1F67EDBDEAEC071 /* Pods-MyDevApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDevApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDevApp/Pods-MyDevApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D19FA58F3D1D9F5ED8A1706D /* Pods-MyDevAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDevAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDevAppUITests/Pods-MyDevAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 		7AB40ABE1FE275A100ED6F45 /* MyDevApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A915BCE1FE3E4B20043EEE7 /* MyDevApp.entitlements */,
+				7ABE1C031FE3950200650127 /* GoogleService-Info.plist */,
 				7AB40ABF1FE275A100ED6F45 /* AppDelegate.swift */,
 				7AB40AC41FE275A200ED6F45 /* MasterViewController.swift */,
 				7AB40AC61FE275A200ED6F45 /* DetailViewController.swift */,
@@ -257,6 +262,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = S7E29NVC7F;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					7AB40AD41FE275A300ED6F45 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -296,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AB40ACF1FE275A200ED6F45 /* LaunchScreen.storyboard in Resources */,
+				7ABE1C041FE3950200650127 /* GoogleService-Info.plist in Resources */,
 				7AB40ACC1FE275A200ED6F45 /* Assets.xcassets in Resources */,
 				7AB40ACA1FE275A200ED6F45 /* Main.storyboard in Resources */,
 			);
@@ -617,6 +628,7 @@
 			baseConfigurationReference = BB68EFFCA1F67EDBDEAEC071 /* Pods-MyDevApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyDevApp/MyDevApp.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S7E29NVC7F;
 				INFOPLIST_FILE = MyDevApp/Info.plist;
@@ -634,6 +646,7 @@
 			baseConfigurationReference = DA97782837F4F6C4ADD6CF73 /* Pods-MyDevApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyDevApp/MyDevApp.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S7E29NVC7F;
 				INFOPLIST_FILE = MyDevApp/Info.plist;

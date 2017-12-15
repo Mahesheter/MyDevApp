@@ -13,7 +13,7 @@
         <scene sceneID="pY4-Hu-kfo">
             <objects>
                 <navigationController title="Master" id="RMx-3f-FxP" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pmd-2v-anx">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="Pmd-2v-anx">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -123,7 +123,7 @@
         <scene sceneID="ZGH-Uc-iqS">
             <objects>
                 <navigationController id="AYD-ml-jjY" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BY8-p2-miz">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BY8-p2-miz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -185,73 +185,69 @@
                                     <action selector="login_action:" destination="rEr-nF-xaS" eventType="touchUpInside" id="hi2-lF-CVO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbz-y8-1cu">
-                                <rect key="frame" x="67" y="393" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCL-tA-fD2" customClass="GIDSignInButton">
+                                <rect key="frame" x="67" y="384" width="280" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="0HI-34-ApC"/>
-                                    <constraint firstAttribute="width" constant="280" id="YYd-BJ-fn8"/>
+                                    <constraint firstAttribute="width" constant="280" id="Fiw-4i-0oY"/>
+                                    <constraint firstAttribute="height" constant="30" id="uVy-91-zFr"/>
                                 </constraints>
-                                <state key="normal" image="google_login">
-                                    <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="login_with_google_action:" destination="rEr-nF-xaS" eventType="touchUpInside" id="kXj-cg-cRI"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sign here" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bp3-1O-6vb">
-                                <rect key="frame" x="164.66666666666666" y="338" width="85" height="30"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh9-oe-9IJ">
+                                <rect key="frame" x="175" y="338" width="65" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="5nI-NS-vnD"/>
+                                    <constraint firstAttribute="height" constant="21" id="Zgj-Sb-RBV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG7-Xp-7k2">
-                                <rect key="frame" x="67" y="448" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiZ-WL-YKK">
+                                <rect key="frame" x="67" y="439" width="280" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="7tj-Xr-jxX"/>
-                                    <constraint firstAttribute="height" constant="30" id="eNY-AW-HbJ"/>
+                                    <constraint firstAttribute="width" constant="280" id="71E-qh-WPv"/>
+                                    <constraint firstAttribute="height" constant="30" id="Aab-oy-kNL"/>
                                 </constraints>
-                                <state key="normal" image="facebook_login">
-                                    <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="Button" image="facebook_login"/>
                                 <connections>
-                                    <action selector="login_with_facebook_action:" destination="rEr-nF-xaS" eventType="touchUpInside" id="L8c-9B-VQa"/>
+                                    <action selector="btnFBLoginPressed:" destination="rEr-nF-xaS" eventType="touchUpInside" id="Pf6-JD-bw0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="vCL-tA-fD2" firstAttribute="top" secondItem="hh9-oe-9IJ" secondAttribute="bottom" constant="25" id="20P-g5-0SG"/>
                             <constraint firstItem="DoL-b0-bB6" firstAttribute="top" secondItem="Zrq-vT-pqo" secondAttribute="bottom" constant="25" id="3j4-GS-cQW"/>
                             <constraint firstItem="SXN-bR-3nk" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="Ef6-QT-Ha8"/>
-                            <constraint firstItem="Tbz-y8-1cu" firstAttribute="top" secondItem="Bp3-1O-6vb" secondAttribute="bottom" constant="25" id="HTR-Go-Tfk"/>
-                            <constraint firstItem="iG7-Xp-7k2" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="ScB-Tm-Ld9"/>
-                            <constraint firstItem="Tbz-y8-1cu" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="Xj0-ue-ZGZ"/>
+                            <constraint firstItem="PiZ-WL-YKK" firstAttribute="top" secondItem="vCL-tA-fD2" secondAttribute="bottom" constant="25" id="Y8S-3h-AtC"/>
                             <constraint firstItem="39f-2r-8aI" firstAttribute="top" secondItem="SXN-bR-3nk" secondAttribute="bottom" constant="25" id="arn-lL-7A3"/>
                             <constraint firstItem="39f-2r-8aI" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="cBI-OI-X9B"/>
-                            <constraint firstItem="Bp3-1O-6vb" firstAttribute="top" secondItem="DoL-b0-bB6" secondAttribute="bottom" constant="25" id="dS1-rV-MFU"/>
+                            <constraint firstItem="hh9-oe-9IJ" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="eMF-1l-BJi"/>
+                            <constraint firstItem="PiZ-WL-YKK" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="fB2-1M-GMC"/>
                             <constraint firstItem="Zrq-vT-pqo" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="hR0-9u-bPj"/>
+                            <constraint firstItem="hh9-oe-9IJ" firstAttribute="top" secondItem="DoL-b0-bB6" secondAttribute="bottom" constant="25" id="jU0-UA-bzy"/>
                             <constraint firstItem="Zrq-vT-pqo" firstAttribute="top" secondItem="39f-2r-8aI" secondAttribute="bottom" constant="25" id="kx7-aT-cQ7"/>
-                            <constraint firstItem="Bp3-1O-6vb" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="lHb-qd-hnt"/>
-                            <constraint firstItem="iG7-Xp-7k2" firstAttribute="top" secondItem="Tbz-y8-1cu" secondAttribute="bottom" constant="25" id="n0K-0J-46d"/>
                             <constraint firstItem="DoL-b0-bB6" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="ohK-D6-fev"/>
                             <constraint firstItem="SXN-bR-3nk" firstAttribute="top" secondItem="gAh-a4-3Ls" secondAttribute="bottom" constant="28" id="ugZ-ol-YIf"/>
+                            <constraint firstItem="vCL-tA-fD2" firstAttribute="centerX" secondItem="z9w-mb-ohz" secondAttribute="centerX" id="yWb-Ud-tGj"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="signInButton" destination="vCL-tA-fD2" id="RON-Iw-qPs"/>
                         <outlet property="txt_email" destination="39f-2r-8aI" id="W2N-px-5SN"/>
                         <outlet property="txt_password" destination="Zrq-vT-pqo" id="Sr2-Uk-PbT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ikr-6n-dm5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1986.4000000000001" y="-206.44677661169416"/>
+            <point key="canvasLocation" x="-2158" y="-206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
             <objects>
                 <navigationController id="vC3-pB-5Vb" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="DjV-YW-jjY">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="DjV-YW-jjY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -266,7 +262,6 @@
     </scenes>
     <resources>
         <image name="facebook_login" width="480" height="80"/>
-        <image name="google_login" width="480" height="80"/>
         <image name="my_dev_logo" width="3333" height="3333"/>
     </resources>
     <inferredMetricsTieBreakers>

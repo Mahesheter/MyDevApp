@@ -7,6 +7,9 @@ target 'MyDevApp' do
 
   # Pods for MyDevApp
 pod 'Simplicity'
+pod 'Google/SignIn'
+pod 'FacebookCore'
+pod 'FacebookLogin'
 
   target 'MyDevAppTests' do
     inherit! :search_paths
