@@ -1,0 +1,12 @@
+PODS:
+  - Simplicity (2.0.1)
+
+DEPENDENCIES:
+  - Simplicity
+
+SPEC CHECKSUMS:
+  Simplicity: 58ce0c6569baf45e48ccd25432274ae899097517
+
+PODFILE CHECKSUM: 0c1dfc3b9623e8c7dc32f283d48c2e21aace98f9
+
+COCOAPODS: 1.2.1
