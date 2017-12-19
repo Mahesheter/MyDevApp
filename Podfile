@@ -10,6 +10,12 @@ pod 'Simplicity'
 pod 'Google/SignIn'
 pod 'FacebookCore'
 pod 'FacebookLogin'
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'YALSideMenu', '~> 2.0'
+pod 'LGSideMenuController'
+pod 'SideMenuController'
 
   target 'MyDevAppTests' do
     inherit! :search_paths

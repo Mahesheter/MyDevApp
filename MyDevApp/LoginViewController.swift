@@ -12,7 +12,7 @@ import Google
 import GoogleSignIn
 
 import FBSDKLoginKit
-import FirebaseCore
+
 
 
 

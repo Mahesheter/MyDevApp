@@ -44,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LGSideMenuController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MyDevApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,7 +64,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SideMenuController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Simplicity.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YALSideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -67,12 +82,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A667609BF9BD15CE73A76A27D5C8C4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>25B1B4F116227309E6D3049EF623D0FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F456421B184992721EDC9388334EEC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35021AECD534434552C79511A7E212DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +142,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BAD490F6365D7901F473A306CF296CC5</key>
+		<key>D3BA5A06561DD622B3E91AA27CEEFB2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,7 +152,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E4D035C9D6E966983BA6E66C8427350B</key>
+		<key>EDBDC5C58521429803778C69D3BCD8E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

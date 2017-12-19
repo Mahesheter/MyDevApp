@@ -20,6 +20,17 @@
 		7AB40ADA1FE275A300ED6F45 /* MyDevAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB40AD91FE275A300ED6F45 /* MyDevAppTests.swift */; };
 		7AB40AE51FE275A300ED6F45 /* MyDevAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB40AE41FE275A300ED6F45 /* MyDevAppUITests.swift */; };
 		7ABE1C041FE3950200650127 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE1C031FE3950200650127 /* GoogleService-Info.plist */; };
+		7ADAC3121FE91A550004F410 /* CacheabaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3111FE91A550004F410 /* CacheabaleViewController.swift */; };
+		7ADAC3141FE91A7E0004F410 /* CachingSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3131FE91A7E0004F410 /* CachingSideMenuController.swift */; };
+		7ADAC3161FE91AA30004F410 /* CachingSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3151FE91AA30004F410 /* CachingSideViewController.swift */; };
+		7ADAC3181FE91ACC0004F410 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3171FE91ACC0004F410 /* ContentViewController.swift */; };
+		7ADAC31A1FE91AF90004F410 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3191FE91AF90004F410 /* CustomSideMenuController.swift */; };
+		7ADAC31C1FE91B390004F410 /* FCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC31B1FE91B390004F410 /* FCViewController.swift */; };
+		7ADAC31E1FE91B600004F410 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC31D1FE91B600004F410 /* MenuController.swift */; };
+		7ADAC3201FE91B8C0004F410 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC31F1FE91B8C0004F410 /* RootViewController.swift */; };
+		7ADAC3221FE91BAC0004F410 /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3211FE91BAC0004F410 /* SCViewController.swift */; };
+		7ADAC3241FE91BCA0004F410 /* TCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3231FE91BCA0004F410 /* TCViewController.swift */; };
+		7ADAC3261FE91BE60004F410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAC3251FE91BE60004F410 /* ViewController.swift */; };
 		93610D57E7B325CA1409C5C8 /* Pods_MyDevAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B816B0C20AEA23C1A53F1 /* Pods_MyDevAppUITests.framework */; };
 		E307C0B0A4179853373EFC84 /* Pods_MyDevAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B19ACD5437E6646A544340 /* Pods_MyDevAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +77,17 @@
 		7AB40AE41FE275A300ED6F45 /* MyDevAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDevAppUITests.swift; sourceTree = "<group>"; };
 		7AB40AE61FE275A300ED6F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABE1C031FE3950200650127 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ADAC3111FE91A550004F410 /* CacheabaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheabaleViewController.swift; sourceTree = "<group>"; };
+		7ADAC3131FE91A7E0004F410 /* CachingSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingSideMenuController.swift; sourceTree = "<group>"; };
+		7ADAC3151FE91AA30004F410 /* CachingSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingSideViewController.swift; sourceTree = "<group>"; };
+		7ADAC3171FE91ACC0004F410 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		7ADAC3191FE91AF90004F410 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		7ADAC31B1FE91B390004F410 /* FCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCViewController.swift; sourceTree = "<group>"; };
+		7ADAC31D1FE91B600004F410 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		7ADAC31F1FE91B8C0004F410 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7ADAC3211FE91BAC0004F410 /* SCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
+		7ADAC3231FE91BCA0004F410 /* TCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCViewController.swift; sourceTree = "<group>"; };
+		7ADAC3251FE91BE60004F410 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6B19ACD5437E6646A544340 /* Pods_MyDevAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDevAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB68EFFCA1F67EDBDEAEC071 /* Pods-MyDevApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDevApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDevApp/Pods-MyDevApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D19FA58F3D1D9F5ED8A1706D /* Pods-MyDevAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDevAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDevAppUITests/Pods-MyDevAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +172,17 @@
 				7AB40AD01FE275A200ED6F45 /* Info.plist */,
 				7AB40AC11FE275A200ED6F45 /* MyDevApp.xcdatamodeld */,
 				7A2EE3FA1FE28C45005C3E5D /* LoginViewController.swift */,
+				7ADAC3111FE91A550004F410 /* CacheabaleViewController.swift */,
+				7ADAC3131FE91A7E0004F410 /* CachingSideMenuController.swift */,
+				7ADAC3151FE91AA30004F410 /* CachingSideViewController.swift */,
+				7ADAC3171FE91ACC0004F410 /* ContentViewController.swift */,
+				7ADAC3191FE91AF90004F410 /* CustomSideMenuController.swift */,
+				7ADAC31B1FE91B390004F410 /* FCViewController.swift */,
+				7ADAC31D1FE91B600004F410 /* MenuController.swift */,
+				7ADAC31F1FE91B8C0004F410 /* RootViewController.swift */,
+				7ADAC3211FE91BAC0004F410 /* SCViewController.swift */,
+				7ADAC3231FE91BCA0004F410 /* TCViewController.swift */,
+				7ADAC3251FE91BE60004F410 /* ViewController.swift */,
 			);
 			path = MyDevApp;
 			sourceTree = "<group>";
@@ -471,10 +504,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADAC3241FE91BCA0004F410 /* TCViewController.swift in Sources */,
 				7AB40AC01FE275A100ED6F45 /* AppDelegate.swift in Sources */,
+				7ADAC3121FE91A550004F410 /* CacheabaleViewController.swift in Sources */,
+				7ADAC31C1FE91B390004F410 /* FCViewController.swift in Sources */,
+				7ADAC31A1FE91AF90004F410 /* CustomSideMenuController.swift in Sources */,
+				7ADAC3201FE91B8C0004F410 /* RootViewController.swift in Sources */,
+				7ADAC31E1FE91B600004F410 /* MenuController.swift in Sources */,
+				7ADAC3221FE91BAC0004F410 /* SCViewController.swift in Sources */,
+				7ADAC3141FE91A7E0004F410 /* CachingSideMenuController.swift in Sources */,
+				7ADAC3161FE91AA30004F410 /* CachingSideViewController.swift in Sources */,
+				7ADAC3181FE91ACC0004F410 /* ContentViewController.swift in Sources */,
 				7AB40AC31FE275A200ED6F45 /* MyDevApp.xcdatamodeld in Sources */,
 				7AB40AC51FE275A200ED6F45 /* MasterViewController.swift in Sources */,
 				7A2EE3FB1FE28C45005C3E5D /* LoginViewController.swift in Sources */,
+				7ADAC3261FE91BE60004F410 /* ViewController.swift in Sources */,
 				7AB40AC71FE275A200ED6F45 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,11 @@ import Simplicity
 import Google
 import GoogleSignIn
 import FBSDKLoginKit
+import Firebase
+import SideMenuController
+
+
+
 
 
 
@@ -19,9 +24,58 @@ import FBSDKLoginKit
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate,GIDSignInDelegate {
 
     var window: UIWindow?
-
+    let defaults : UserDefaults = UserDefaults.standard
+    
+    var initialViewController :UIViewController?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FIRApp.configure()
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+    
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        defaults.set(true, forKey: "isLogged in")
+        
+        if defaults.bool(forKey: "isLogged in")
+        {
+            
+            SideMenuController.preferences.drawing.menuButtonImage = UIImage(named: "menu")
+            SideMenuController.preferences.drawing.sidePanelPosition = .overCenterPanelLeft
+            SideMenuController.preferences.drawing.sidePanelWidth = 300
+            SideMenuController.preferences.drawing.centerPanelShadow = true
+            SideMenuController.preferences.animating.statusBarBehaviour = .showUnderlay
+            
+             initialViewController = storyboard.instantiateViewController(withIdentifier: "RootVC")
+            
+            
+            //initialViewController = RootViewController
+        }
+        else{
+            initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginVC")
+            
+        }
+         self.window?.rootViewController = initialViewController
+         self.window?.makeKeyAndVisible()
+        
+        
+//        
+//        FIRAuth.auth()?.signIn(withEmail: "mahesh.nikate@devapp.com", password: "123456", completion: { (user:FIRUser?, err) in
+//            if err == nil
+//            {
+//                if let email = user?.email
+//                {
+//                print(email)
+//                }
+//                
+//            }
+//            else
+//            {
+//                print(err)
+//            }
+//        })
         // Override point for customization after application launch.
 //        let splitViewController = self.window!.rootViewController as! UISplitViewController
 //        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
